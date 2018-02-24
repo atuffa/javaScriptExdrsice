@@ -1,0 +1,24 @@
+{
+  "name": "javascriptexdrsice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atuffa/javaScriptExdrsice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atuffa/javaScriptExdrsice/issues"
+  },
+  "homepage": "https://github.com/atuffa/javaScriptExdrsice#readme",
+  "dependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
