@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="target"></p>
+
+    <script>
+     //document.querySelector('#target').innerHTML = 'Hey guys!'
+     const gameArray = ['rock', 'paper', 'scissor']
+     let responsePlayerOne = prompt(" Player one: Inorder to play the game, you have to either enter one of the following : Paper, Scissors or Rock.");
+     let responsePlayerTwo = prompt(" Player two: Inorder to play the game, you have to either enter one of the following : Paper, Scissors or Rock.");
+
+     if( responsePlayerOne.toLowerCase() ===  responsePlayerTwo.toLowerCase() ){
+
+        console.log('No one wins')
+        //document.querySelector('#target').innerHTML = `No one wins`
+
+     }else if(responsePlayerOne.toLowerCase() === gameArray[0] && responsePlayerTwo.toLowerCase() === gameArray[2] ) {
+        document.querySelector('#target').innerHTML = `No one wins`
+     }
+    </script>
+</body>
+</html>
